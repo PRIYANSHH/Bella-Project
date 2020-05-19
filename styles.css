@@ -1,9 +1,10 @@
+
+body{
+  font-family: "Montserrat";
+}
 #title{
   background-color: #35495e;
   color: #fff;
-}
-body{
-  font-family: "Montserrat";
 }
 .He {
   font-size: 3.5rem;
@@ -27,10 +28,21 @@ font-family: 'Ubuntu', sans-serif;
 .db {
   margin: 5% 3% 5% 0;
 }
+.feedback-main{
+  position: fixed;
+   top: 50%;
+   -webkit-transform: translateY(100%);
+   -ms-transform: translateY(100%);
+   transform: translateY(100%);
+   transform: rotate(-90deg);
+   transform-origin: right;
+   right:20px;
+}
 .title-image{
   width: 50%;
   transform: rotate(25deg);
   position: relative;
+  left: 100px;
 }
 #features{
   padding: 7% 15%;
@@ -79,8 +91,8 @@ h3{
   width: 15%;
   margin: 20px 20px 50px;
 }
-#pricing {
-  padding: 40px;
+#breeds {
+  padding:40px;
   text-align: center;
 }
 .pc {
@@ -90,6 +102,8 @@ h3{
 .title-image{
   position: static;
   transform: rotate(0);
+  margin-left: 25px;
+  width:75%;
 }
 }
 #cta {
@@ -106,7 +120,7 @@ h3{
   text-align: center;
 }
 .iconic {
-  margin: 1% 0.5%;
+  margin: 1% 1%;
 }
 #footer .iconic:hover {
   color: black !important;
