@@ -1,11 +1,16 @@
-
 body{
   font-family: "Montserrat";
 }
 #title{
-  background-color: #35495e;
+  background-image: linear-gradient(#141e30,#243b55);
   color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
+
 .He {
   font-size: 3.5rem;
   line-height: 1.5;
@@ -13,6 +18,7 @@ body{
 }
 .container-lg{
   padding: 3% 15%;
+
 }
 .navbar-brand {
 font-family: 'Ubuntu', sans-serif;
@@ -39,9 +45,7 @@ font-family: 'Ubuntu', sans-serif;
    right:20px;
 }
 .title-image{
-  width: 50%;
-  transform: rotate(25deg);
-  position: relative;
+  width: 100%;
   left: 100px;
 }
 #features{
@@ -57,24 +61,29 @@ h3{
   font-weight:bolder;
 }
 .icon {
-  color: #35495e;
+  color:#243b55;
   margin: 1rem;
 }
 .icon:hover {
-  color: #c70039;
+  color: #A5CAD2;
 }
-#testimonials {
+#testimonials{
   text-align: center;
-  background-color: #35495e;
+    background-image: linear-gradient(#141e30,#243b55);
   color: #fff;
   font-family: "Montserrat-bold";
   line-height: 1.5;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 .carousel-item {
     padding: 7% 15%;
 }
 .testimonial-text {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 .testimonial-image {
@@ -84,8 +93,12 @@ h3{
 }
 #press {
   text-align: center;
-  background-color: #35495e;
-  padding-bottom: 3%
+    background-image: linear-gradient(#141e30,#243b55);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 .logo-select {
   width: 15%;
@@ -107,9 +120,13 @@ h3{
 }
 }
 #cta {
-  background-color: #35495e;
+  padding-top: 20px;
   text-align: center;
-  padding: 50px;
+    background-image: linear-gradient(#141e30,#243b55);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 .ccc {
     color: #fff;
@@ -124,4 +141,13 @@ h3{
 }
 #footer .iconic:hover {
   color: black !important;
+}
+#myBtn{
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+}
+.para{
+  font-family: 'Ubuntu', sans-serif;
 }
