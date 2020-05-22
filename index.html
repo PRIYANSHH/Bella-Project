@@ -221,17 +221,26 @@
 
       <!-- Modal body -->
       <div class="modal-body">
-        <textarea name="name" rows="4" cols="60"placeholder="Give your feedback here"></textarea>
+        <textarea id="textHere"name="name" rows="4" cols="60" style="width:100%"placeholder="Give your feedback here"onkeyup="enable(this)" ></textarea>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+        <button id="enab" type="button" class="btn btn-primary" data-dismiss="modal"disabled>Submit</button>
       </div>
 
     </div>
   </div>
 </div>
+<script type="text/javascript">
+function enable(val){
+  if(val.value.length!=0)
+  document.getElementById("enab").disabled=false;
+  else {
+    document.getElementById("enab").disabled=true;
+  }
+}
+</script>
   </body>
 
   </html>
