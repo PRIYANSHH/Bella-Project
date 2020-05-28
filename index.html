@@ -226,7 +226,7 @@
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button id="enab" type="button" class="btn btn-primary" data-dismiss="modal"disabled>Submit</button>
+        <button id="enab" type="button" onclick="submit()" class="btn btn-primary" data-dismiss="modal"disabled>Submit</button>
       </div>
 
     </div>
@@ -239,6 +239,9 @@ function enable(val){
   else {
     document.getElementById("enab").disabled=true;
   }
+}
+  function submit(){
+  document.getElementById("textHere").value='';
 }
 </script>
   </body>
